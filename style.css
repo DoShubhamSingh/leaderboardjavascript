@@ -1,0 +1,102 @@
+
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #d44db7;
+    
+}
+h1{
+    text-align: center;
+    font-size: 60px;
+    color: white;
+
+}
+form{
+    text-align: center;
+    margin-top: 20px;
+   
+    padding:20px;
+    border:2px solid black;
+   
+}
+
+.bg{
+    background-color:rgb(73, 153, 218);
+   padding: 10px;
+}
+input{
+    outline: none;
+    /* border: none; */
+    width:150px;
+    height: 30px;
+    padding:10px;
+    font-size: 20px;
+    
+}
+button{
+    outline: none;
+    /* border: none; */
+    width:150px;
+    height: 54px;
+    padding:10px;
+    font-size: 22px;
+    background-color: rgb(238, 167, 74);
+    
+}
+select{
+    width: 150px;
+    height: 53px;
+    font-size: 20px;
+    color: black;
+}
+
+
+
+
+
+.section2{
+    width:80%;
+    max-height:430px;
+    border: 2px solid rgb(105, 141, 238);
+    padding:30px 20px;
+    margin: 40px 40px 0;
+    color: white;
+    /* display: none;
+    padding: 0; */
+    
+}
+
+
+.button_group{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgba(255, 115, 0, 0.877);
+    font-size: larger;
+    font-weight: bold;
+    border-radius: 34px;
+    height: 50px;
+    margin-top: 20px;
+}
+
+.del, .but1, .but2 {
+    width: 30px;          
+    height: 40px;           
+    background-color: transparent; 
+    border: none;            
+    padding: 0;          
+    font-size: 20px;         
+    font-weight: bold;  
+    color: white;             
+    
+}
+
+
+
+
